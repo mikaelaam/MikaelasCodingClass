@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Mikaela Masterson
+   Date: October 26, 2020
+	
+   Filename: br_styles.css
+
+*/
+
+/* Page */
+
+html {
+	background: radial-gradient(white, rgb(7, 1, 36));
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+	background-color: rgb(231, 231, 231);
+	width: 95%;
+	min-width: 640px;
+	max-width: 960px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgb(7, 1, 36) 10px 10px 50px,
+				rgb(7, 1, 36) -10px 10px 50px;
+}
+
+
+/* Header */
+
+
+
+body > header > img { 
+	background-size: cover;
+}
+
+
+
+
+
+/* Listing Info */
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+article h5 {
+	text-shadow: gray 4px 6px 5px;
+}
+
+
+aside {
+	text-align: right;
+
+}
+
+/* Images */
+
+/* Footer */
+
+footer {
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 25px;
+}
